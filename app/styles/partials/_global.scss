@@ -1,0 +1,19 @@
+﻿*, *:before, *:after {
+    box-sizing: border-box;
+}
+@include sticky-footer(148px, ".root", ".root_footer", ".footer");
+html * {
+    font-family: $font-family;
+    font-size: $font-size;
+    outline: none;
+}
+.clearfix {
+    @include clearfix();
+}
+.hide {
+    display: none !important;
+}
+a {
+	color: $link-color;
+	text-decoration: none;
+}
