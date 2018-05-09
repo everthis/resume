@@ -1,7 +1,13 @@
-﻿	@import "compass/layout";
-	@import "partials/var";
-	@import "partials/mixins";
-	@import "partials/global";
-	@import "partials/index";
-	@import "partials/normalize";
-	body { height:297mm; width:210mm; margin-left:auto; margin-right:auto; }
+﻿@import "compass/layout";
+@import "partials/var";
+@import "partials/mixins";
+@import "partials/global";
+@import "partials/index";
+@import "partials/normalize";
+body { height:297mm; width:210mm; margin-left:auto; margin-right:auto; }
+h1 {
+	margin: 0.4em 0;
+}
+p {
+	margin: .5em 0;
+}
